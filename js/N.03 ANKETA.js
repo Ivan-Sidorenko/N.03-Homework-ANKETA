@@ -2,15 +2,15 @@
 
 do {
     var wthatIsYourSurname = prompt("Ваша фамилия?"); //Фамилия
-} while (!wthatIsYourSurname.trim());
+} while (!wthatIsYourSurname || !wthatIsYourSurname.trim());
 
 do {
     var wthatIsYourName = prompt("Ваше имя?"); //Имя
-} while (!wthatIsYourName.trim());
+} while (!wthatIsYourName || !wthatIsYourName.trim());
 
 do {
     var wthatIsYourPatronymic = prompt("Ваше отчество?"); //Отчество
-} while (!wthatIsYourPatronymic.trim());
+} while (!wthatIsYourPatronymic || !wthatIsYourPatronymic.trim());
 var wthatIsYourFullName = wthatIsYourSurname + " " + wthatIsYourName + " " + wthatIsYourPatronymic; //ФИО
 
 do {
